@@ -25,5 +25,5 @@ var headerNum = document.getElementsByTagName("h2")[0];
 var element = document.createElement("span");
 headerNum.appendChild(element);
 
-element.textContent = ` (${count})`; // Set the count inside the span
+element.textContent = ` ${count}`; // Set the count inside the span
 headerNum.appendChild(element);
